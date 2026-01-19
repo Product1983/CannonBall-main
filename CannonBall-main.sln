@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{9484ECCC-86A4-CD38-2AA5-CACE2E1D32D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{DAE69B18-27C2-973F-5141-E18FA997FB97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigRookGames", "BigRookGames.csproj", "{4BF67801-971C-3EE6-9AB7-CF7186766D8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9484ECCC-86A4-CD38-2AA5-CACE2E1D32D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9484ECCC-86A4-CD38-2AA5-CACE2E1D32D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9484ECCC-86A4-CD38-2AA5-CACE2E1D32D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9484ECCC-86A4-CD38-2AA5-CACE2E1D32D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAE69B18-27C2-973F-5141-E18FA997FB97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE69B18-27C2-973F-5141-E18FA997FB97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE69B18-27C2-973F-5141-E18FA997FB97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE69B18-27C2-973F-5141-E18FA997FB97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BF67801-971C-3EE6-9AB7-CF7186766D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF67801-971C-3EE6-9AB7-CF7186766D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF67801-971C-3EE6-9AB7-CF7186766D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF67801-971C-3EE6-9AB7-CF7186766D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
