@@ -40,6 +40,7 @@ namespace BigRookGames.Build
             // --- If alive and the health has crossed below the next threshold, update panel ---
             if (!alive && CheckStageHealthThreshold())//
             {
+                Debug.Log("Worker");
                 anim.SetInteger("Health", m_Health);
                 if (m_Health > 0)
                 {

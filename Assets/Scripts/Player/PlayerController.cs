@@ -1,24 +1,26 @@
 using UnityEngine;
-
+using UnityEngine.InputSystem;
 [RequireComponent(typeof(Rigidbody))]
+
 public class PlayerController : MonoBehaviour
 {
-    private Rigidbody _rb;
-    
     [SerializeField] private float moveForce;
+
+    private IMovement movement;
+    private  PlayerOnPut playerOnPut;
 
     private void Start()
     {
-        _rb = GetComponent<Rigidbody>();
-    }
+        var rb = GetComponent<Rigidbody>();
 
+     playerOnPut = new PlayerInput();
+        movement = new PlayerMove(rb, moveForce);
+    }
     private void FixedUpdate()
     {
-        var horizontal = Input.GetAxis("Horizontal");
-        var vertical = Input.GetAxis("Vertical");
-        
-        Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
-        
-        _rb.AddForce(direction * moveForce * Time.fixedDeltaTime, ForceMode.Acceleration);
+        Vector3 direction = playerOnPut.GetDirection();
+
+        movement.Move(direction);
     }
 }
+
