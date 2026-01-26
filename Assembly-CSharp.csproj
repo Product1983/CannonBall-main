@@ -73,7 +73,6 @@
     <Compile Include="Assets\Scripts\Player\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\UI\Globals.cs" />
     <Compile Include="Assets\Scripts\UI\PhisicalButton.cs" />
-    <Compile Include="Assets\Scripts\TestBahavior.cs" />
     <Compile Include="Assets\DownloadMaterials\Main menu with parallax FREE\Scripts\ActivateParallax.cs" />
     <Compile Include="Assets\DownloadMaterials\Main menu with parallax FREE\Scripts\Parallax.cs" />
     <Compile Include="Assets\DownloadMaterials\Main menu with parallax FREE\Scripts\MenuController.cs" />
