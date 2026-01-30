@@ -9,6 +9,7 @@ public class MainMenu : MonoBehaviour
     public TextMeshProUGUI EnterName = null;
     private void Start()
     {
+        auchPanel.SetActive(false);
         if (PlayerPrefs.HasKey("Save"))
         {
             Globals.playerName = PlayerPrefs.GetString("Name");

@@ -16,7 +16,7 @@ public class MenuManager : MonoBehaviour
     [SerializeField] private CinemachineCamera _settingsCamera;
     [SerializeField] private GameObject _menuPanel;
     [SerializeField] private GameObject _mainPanel;
-    [SerializeField] private GameObject _auchPanel;
+    [SerializeField] private GameObject _auchPanel = null;
     [SerializeField] private GameObject _loadPanel;
     [SerializeField] private GameObject _settingsPanel;
     [SerializeField] private AudioMixer _audioMixer;
@@ -33,6 +33,7 @@ public class MenuManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Start()
     {
+        _auchPanel.SetActive(false);
         StartCoroutine(OpenMenuAfterTime()); 
         _menuPanel.SetActive(false);
         _loadPanel.SetActive(false);

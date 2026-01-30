@@ -32,7 +32,7 @@ public class MovableNail : MonoBehaviour
                 transform.localPosition = new Vector3(min, 0, 0);
                 return;
             }
-            transform.position += new Vector3(-Input.GetAxis("Mouse X")/2, 0, 0);
+            transform.position += new Vector3(-Input.GetAxis("Mouse X")/50, 0, 0);
             menuManager.SetVolume();
         }
     }
